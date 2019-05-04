@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    background: black;
+}
+.logo{  
+    
+    display: flex;
+  justify-content: start;
+  padding: 0px 20px ;
+
+    
+}
+.logo h1{
+  
+   font-size: 40px;
+   line-height: 50px;
+   margin-left: 3px;
+   padding: 25px ;
+   color: white;
+}
+.menu{
+    list-style-type: none;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 35px;  
+    left: 930px ;
+    
+}
+.fundo{
+    display: flex;
+    justify-content: center;
+ 
+   
+
+}
+.fundo img{
+    width: auto;
+   
+}
+.item{
+    border: 3px solid rgb(42, 157,162);
+    background: rgb(42, 157,162);
+    padding: 40px 10px;
+    margin: 0;
+    
+}
+.sitem{
+    border: 3px solid rgb(0, 0, 0);
+    background: black;
+}
+.texto{
+    border: 3px solid rgb(255, 255, 255);
+    width: 600px ;
+    height: 200px ;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: absolute;
+    top: 400px;
+    font-size: 30px; 
+    text-align: center;
+
+}
+
+.bordaend{
+    border: 20px solid rgb(0, 0, 0);
+    background: black;
+   
+}
+.bordaend li{
+    list-style-type: none;
+    color: white;
+}
+.bordam{
+   position: absolute;
+   left:5% ;
+   padding: 0px 15px;
+}
+.imgf{
+    width: 150px;
+    position: absolute;
+    left: 45%;
+    top: 951px
+}
+
+.imgu{
+    position: absolute;
+    top:960px;
+    left: 80%; 
+    
+    
+}
+.imgu li{
+    display: inline;
+    list-style: none;
+    margin: 15px;
+}
+.funci{
+    height:35px ;
+
+
+}
